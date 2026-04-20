@@ -1,0 +1,66 @@
+kd:
+  x: 10.79730779863894
+  y: -8.49921159259975
+  yaw: -0.04138787485688243
+  type: "staff"
+  tags: ["working on language command based navigation"]
+azif:
+  x: -0.35269236750900745
+  y: -4.699211535975337
+  yaw: 1.4329092033284072
+  type: "staff"
+  tags: ["working on wheelchair nav2"]
+jayakant:
+  x: 7.547307750210166
+  y: -3.749211521819234
+  yaw: -1.525557692338067
+  type: "PhD scholar"
+  tags: ["working on drones"]
+laksh:
+  x: 0.047307638451457024
+  y: -0.04921146668493748
+  yaw: 2.281586209358567
+  type: "PhD scholar"
+  tags: ["working on wheelchair"]
+monika:
+  x: -0.514957727968167
+  y: -7.181185782776177
+  yaw: 1.3652147276490518
+  type: "staff"
+  tags: ["working on wheelchair"]
+tarun:
+  x: -0.5026923697441816
+  y: -6.099211556836963
+  yaw: 1.5641767970551514
+  type: "master's student"
+  tags: ["working on wheelchair"]
+lift area:
+  x: 2.1473076697438955
+  y: 9.100788669660687
+  yaw: -0.07849566047094189
+  type: "transportation to another floor"
+  tags: ["rrc lift", "another floor"]
+rrc security check:
+  x: 0.9473076518625021
+  y: 5.400788614526391
+  yaw: 3.1013421177828047
+  type: "rrc"
+  tags: ["security", "rrc","rrc entry", "enquiry"]
+rrc testing area:
+  x: 3.8973076958209276
+  y: -6.199211558327079
+  yaw: 1.5601896493838345
+  type: "testing area"
+  tags: ["experiment", "testing", "testing area"]
+water cooler:
+  x: 18.24730790965259
+  y: 5.200788611546159
+  yaw: -0.030093627978076517
+  type: "water"
+  tags: ["water", "drinking water", "cold water", "hot water"]
+charging point:
+  x: 7.44730774872005
+  y: 1.5007885564118624
+  yaw: -1.568601116328644
+  type: "charging area"
+  tags: ["charging"]
