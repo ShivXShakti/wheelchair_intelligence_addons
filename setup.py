@@ -29,6 +29,7 @@ setup(
         'console_scripts': [
         	'e_create_semantics_for_map = wheelchair_intelligence_addons.create_semantics_for_map:main',
             	'e_hla_navigate2pose = wheelchair_intelligence_addons.e_hla_navigate2pose:main',
+            	'e_intelligence_to_nav2_com = wheelchair_intelligence_addons.e_intelligence_to_nav2_com:main',
         ],
     },
 )

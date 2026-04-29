@@ -1,0 +1,101 @@
+# ============================================================
+#  RRC Lab — Semantic Map (4th Floor, IIIT Hyderabad)
+#  Used by the wheelchair navigation LLM backend to resolve
+#  user commands to physical goal poses.
+#
+#  Each location has:
+#    x, y, yaw  — Nav2 goal pose (map frame)
+#    type        — Category of the location
+#    tags        — Semantic keywords for LLM matching
+#    aliases     — Alternate names users might say
+# ============================================================
+
+
+rrc lift area:
+  x: 2.1473076697438955
+  y: 9.100788669660687
+  yaw: -0.07849566047094189
+  type: "facility"
+  tags: ["lift", "elevator", "another floor", "transport", "accessibility"]
+  aliases: ["lift", "elevator", "lift area", "lifts"]
+
+rrc security check:
+  x: 0.9473076518625021
+  y: 5.400788614526391
+  yaw: 3.1013421177828047
+  type: "facility"
+  tags: ["rrc security", "rrc enquiry", "rrc reception", "rrc gate"]
+  aliases: ["security", "rrc security", "security check", "reception"]
+
+rrc testing area:
+  x: 3.8973076958209276
+  y: -6.199211558327079
+  yaw: 1.5601896493838345
+  type: "facility"
+  tags: ["experiment", "testing", "lab", "testing area", "rrc lab", "robotics lab"]
+  aliases: ["testing area", "rrc lab", "rrc testing", "lab", "testing", "experiment area", "robotics lab"]
+
+rrc water cooler:
+  x: 18.24730790965259
+  y: 5.200788611546159
+  yaw: -0.030093627978076517
+  type: "amenity"
+  tags: ["water", "drinking water", "cold water", "hot water", "thirst", "drink"]
+  aliases: ["water", "water cooler", "water dispenser", "drinking water", "cooler"]
+
+charging point:
+  x: 7.44730774872005
+  y: 1.5007885564118624
+  yaw: -1.568601116328644
+  type: "facility"
+  tags: ["charging", "power", "plug", "battery", "charge"]
+  aliases: ["charging", "charging point", "charging station", "power outlet", "plug point"]
+
+bodh101:
+  x: 10.0
+  y: 10.0
+  yaw: 0.0
+  type: "classroom"
+  tags: ["classroom", "computer vision", "image processing", "class", "vision", "cv"]
+  aliases: ["bodh", "bodh classroom", "computer vision class", "bodh class"]
+
+smruti:
+  x: 12.0
+  y: 10.0
+  yaw: 0.0
+  type: "classroom"
+  tags: ["classroom", "natural language", "foundation models", "class", "nlp", "llms", "language"]
+  aliases: ["smruti", "smruti classroom", "natural language class", "smriti", "smriti classroom"]
+
+gyan:
+  x: 14.0
+  y: 10.0
+  yaw: 0.0
+  type: "classroom"
+  tags: ["classroom", "computer science", "electrical engineering", "operating systems", "os", "class"]
+  aliases: ["gyan", "gyan classroom", "computer science class", "gyan class"]
+
+library:
+  x: 16.0
+  y: 10.0
+  yaw: 0.0
+  type: "facility"
+  tags: ["library", "books", "reading", "study area", "quiet zone"]
+  aliases: ["library", "the library", "reading room"]
+
+rrc entry:
+  x: -5.0
+  y: -5.0
+  yaw: 0.0
+  type: "rrc department"
+  tags: ["Robotics Research Center", "rrc faculty", "madhav sir", "rrc entry gate"]
+  aliases: ["rrc building", "rrc gate"]
+
+himalaya entry:
+  x: -5.0
+  y: -7.0
+  yaw: 0.0
+  type: "himalaya building"
+  tags: ["classrooms", "himalaya"]
+  aliases: ["himalya gate", "classrooms"]
+
